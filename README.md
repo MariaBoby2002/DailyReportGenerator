@@ -219,7 +219,7 @@ Python functions defined for KPIs:
 
 ## 8. Future Suggestions
 - **Database Integration & Automation:** Replace XML uploads with live DB connection; automate daily ingestion  
-- **Interactive Visualization Dashboard:** Use Plotly or Streamlit to create KPI charts  
+- **Interactive Visualization Dashboard:** Use Streamlit to create KPI charts  
 
 ---
 
@@ -235,6 +235,7 @@ Python functions defined for KPIs:
 
 - Output is ready for download in Colab  
 - Potential improvements: error handling, scalability, automation for hands-off reporting
+
 
 
 
