@@ -84,13 +84,12 @@ The notebook uses Google Colab Secrets for Stage-1 and Stage-2 authentication:
 4. Ensure Notebook access is enabled  
 
 **Access secrets in the notebook using:**  
-```python
 userdata.get("SECRET_NAME")
 
   
-**## 4. Notebook Workflow**
+## 4. Notebook Workflow
 
-**### 4.1 Setup & Configuration (Cells 1 & 2)**
+### 4.1 Setup & Configuration (Cells 1 & 2)
 - Import libraries  
 - Define global constants (`TODAY`, `CURRENT_MONTH_START_DATE`)  
 - Set required column names for input DataFrames  
@@ -238,8 +237,6 @@ Python functions defined for KPIs:
 
 - Output is ready for download in Colab  
 - Potential improvements: error handling, scalability, automation for hands-off reporting
-
-
 
 
 
