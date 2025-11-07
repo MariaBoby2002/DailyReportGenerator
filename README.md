@@ -1,6 +1,13 @@
 ﻿# DailyReportGenerator
 # Daily Customer & Order Report Notebook
 
+## Objective
+To process and analyze customer and order data from multiple sources (CSV and XML) using both database 
+table and data-frame (in-memory) approaches. Assume that the data will be share once a day from the source, 
+with new records received on the previous day only. Add missing data if you think there’s a need. The goal is 
+to derive key business insights, such as repeat customers, monthly order trends, regional revenue, and top 
+spenders in the last 30 days.
+
 ## 1. Prerequisites and Setup
 
 ### 1.1 Dependencies and Environment Setup
@@ -191,6 +198,7 @@ Top Customers by Spend (last 30 days)
 Output is ready for download in Colab
 
 Potential improvements: error handling, scalability, automation for hands-off reporting
+
 
 
 
