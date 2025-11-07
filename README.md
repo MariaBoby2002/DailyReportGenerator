@@ -18,10 +18,7 @@ This notebook relies on the following Python libraries:
 
 > **Note:** In Google Colab, most libraries are pre-installed.  
 > If running locally, install the required packages with:
-
-**```bash**
-pip install pandas numpy openpyxl
-openpyxl is required for writing Excel files.
+pip install pandas numpy openpyxl - is required for writing Excel files.
 
 **2. Data Understanding**
 **2.1 Customer Data (CSV/XLSX)**
@@ -197,4 +194,5 @@ Potential improvements: error handling, scalability, automation for hands-off re
 
 
 Copy code
+
 
