@@ -28,6 +28,7 @@ This notebook relies on the following Python libraries:
 pip install pandas numpy openpyxl - is required for writing Excel files.
 
 **2. Data Understanding**
+
 **2.1 Customer Data (CSV/XLSX)**
 Each row represents a customer
 
@@ -198,6 +199,7 @@ Top Customers by Spend (last 30 days)
 Output is ready for download in Colab
 
 Potential improvements: error handling, scalability, automation for hands-off reporting
+
 
 
 
